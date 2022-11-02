@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+
+#product{
+	width: 60%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Mulish', sans-serif;
+}
+
+#product .title{
+	font-size: 30px;
+	text-align: center;
+}
+
+#product .product-detail{
+	display: flex;
+	padding: 20px;
+}
+
+#product .product-detail .detail-img{
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#product .detail-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+#product .product-detail .detail-content{
+	width: 60%;
+	padding: 30px 10px 30px 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#product .detail-content .item-title{
+	font-size: 26px;
+	color: #252a2b;
+}
+
+#product .detail-content .item-price{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-top: 25px;
+}
+
+#product .detail-content .item-description{
+	font-size: 16px;
+	color: black;
+	margin-top: 35px;
+}
